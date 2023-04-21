@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/s65mwq7o1b2iwk9f/branch/main?svg=true)](https://ci.appveyor.com/project/IvanMyakin/webintarfacemyak2-1/branch/main)
