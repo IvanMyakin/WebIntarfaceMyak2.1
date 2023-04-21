@@ -1,6 +1,8 @@
 package ru.netology;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
@@ -8,9 +10,10 @@ import static com.codeborne.selenide.Condition.exactText;
 
 public class CardTest {
     @BeforeEach
-    void setupTest(){
+    void setupTest() {
         open("http://localhost:9999");
     }
+
     @Test
     void shouldSuccessfulSendValidForm() {
         $("[data-test-id=name] input").setValue("Сидоров-Петров Иван");
@@ -19,6 +22,7 @@ public class CardTest {
         $(".button").click();
         $(".Success_successBlock__2L3Cw").shouldHave(text(" Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время."));
     }
+
     @Test
     void shouldGetErrorMessageIfNameInvalid() {
         $("[data-test-id=name] input").setValue("Ivanov Ivan");
@@ -26,6 +30,7 @@ public class CardTest {
         $(".button").click();
         $(".input_type_text .input__sub").shouldHave(text("Имя и Фамилия указаные неверно. Допустимы только русские буквы, пробелы и дефисы."));
     }
+
     @Test
     void shouldGetErrorMessageIfNameEmpty() {
         $("[data-test-id=name] input").setValue("");
@@ -33,6 +38,7 @@ public class CardTest {
         $(".button").click();
         $(".input_type_text .input__sub").shouldHave(text("Поле обязательно для заполнения"));
     }
+
     @Test
     void shouldGetErrorMessageIfPhoneInvalid() {
         $("[data-test-id=name] input").setValue("Иванов-Петров Иван");
@@ -41,6 +47,7 @@ public class CardTest {
         $(".button").click();
         $(".input_type_tel .input__sub").shouldHave(text("Телефон указан неверно. Должно быть 11 цифр, например, +79012345678."));
     }
+
     @Test
     void shouldGetErrorMessageIfPhoneEmpty() {
         $("[data-test-id=name] input").setValue("Иванов-Петров Иван");
