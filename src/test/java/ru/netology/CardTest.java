@@ -1,54 +1,63 @@
 package ru.netology;
-
-
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
+import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Condition.exactText;
 
-
-class CardTest {
-    private WebDriver driver;
-
-    @BeforeAll
-    static void setUpAll() {
-        WebDriverManager.chromedriver().setup();
-    }
-
+public class CardTest {
     @BeforeEach
-    void setUp() {
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--disable-dev-shm-usage");
-        options.addArguments("--no-sandbox");
-        options.addArguments("--headless");
-        driver = new ChromeDriver(options);
+    void setupTest(){
+        open("http://localhost:9999");
     }
-
-    @AfterEach
-    void tearDown() {
-        driver.quit();
-        driver = null;
-
-
+    @Test
+    void shouldSuccessfulSendValidForm() {
+        $("[data-test-id=name] input").setValue("Сидоров-Петров Иван");
+        $("[data-test-id=phone] input").setValue("+75689559556");
+        $("[data-test-id=agreement]").click();
+        $(".button").click();
+        $(".Success_successBlock__2L3Cw").shouldHave(text(" Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время."));
+    }
+    @Test
+    void shouldGetErrorMessageIfNameInvalid() {
+        $("[data-test-id=name] input").setValue("Ivanov Ivan");
+        $("[data-test-id=agreement]").click();
+        $(".button").click();
+        $(".input_type_text .input__sub").shouldHave(text("Имя и Фамилия указаные неверно. Допустимы только русские буквы, пробелы и дефисы."));
+    }
+    @Test
+    void shouldGetErrorMessageIfNameEmpty() {
+        $("[data-test-id=name] input").setValue("");
+        $("[data-test-id=agreement]").click();
+        $(".button").click();
+        $(".input_type_text .input__sub").shouldHave(text("Поле обязательно для заполнения"));
+    }
+    @Test
+    void shouldGetErrorMessageIfPhoneInvalid() {
+        $("[data-test-id=name] input").setValue("Иванов-Петров Иван");
+        $("[data-test-id=phone] input").setValue("+792565595955");
+        $("[data-test-id=agreement]").click();
+        $(".button").click();
+        $(".input_type_tel .input__sub").shouldHave(text("Телефон указан неверно. Должно быть 11 цифр, например, +79012345678."));
+    }
+    @Test
+    void shouldGetErrorMessageIfPhoneEmpty() {
+        $("[data-test-id=name] input").setValue("Иванов-Петров Иван");
+        $("[data-test-id=phone] input").setValue("");
+        $("[data-test-id=agreement]").click();
+        $(".button").click();
+        $(".input_type_tel .input__sub").shouldHave(text("Поле обязательно для заполнения"));
     }
 
     @Test
-    public void positiveTestForm() {
-
-        driver.get("http://localhost:9999/");
-        driver.findElements(By.cssSelector("[data-test-id=name]input)")).sendKeys("Иван");
-        driver.findElements(By.cssSelector("[data-test-id=phone]input)")).sendKeys("+79059657495");
-        driver.findElements(By.cssSelector("[data-test-id=agreement]input)")).click();
-        driver.findElements(By.cssSelector("button.button")).click();
-
-
+    void shouldInvalidCheckbox() {
+        $("[data-test-id=name] input").setValue("Иванов-Петров Иван");
+        $("[data-test-id=phone] input").setValue("+75689559556");
+        $(".button").click();
+        $("[data-test-id='agreement'].input_invalid .checkbox__text")
+                .shouldHave(exactText("Я соглашаюсь с условиями обработки и использования моих персональных данных" +
+                        " и разрешаю сделать запрос в бюро кредитных историй"));
     }
-
 
 }
