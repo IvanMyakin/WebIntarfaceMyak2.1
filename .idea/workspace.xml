@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="470d0768-0b84-4760-8a09-780ce6b30e60" name="Changes" comment="5">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../APIMyakQA53" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Afisha-managerMyak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Afisha-managerMyakinkinQA53" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArraysMyakQA53" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BillboardManagerMyakinkinQA53" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildingProcessMyakQA53" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cash1.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CashBack1.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameStore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaText/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaText/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaText/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaText/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaText/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaText/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaText/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaText/target/classes/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManegerMyakinkin/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManegerMyakinkin/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManegerMyakinkin/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManegerMyakinkin/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManegerMyakinkin/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManegerMyakinkin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManegerMyakinkin/src/main/java/ru/netology/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManegerMyakinkin/src/main/java/ru/netology/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManegerMyakinkin/src/main/java/ru/netology/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManegerMyakinkin/src/main/java/ru/netology/Smartphone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Postman/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Postman/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Postman/src/main/java/ru/netology/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PostmanEcho1.2.3/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PostmanEcho1.2.3/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PostmanEcho1.2.3/src/main/java/ru/netology/PostmanEchoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/src/main/java/ru/netology/statistic/StatisticsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/src/test/java/ru/netology/statistic/StatisticsServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/ProcessMyakQA-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/classes/ru/netology/statistic/StatisticsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/jacoco.exec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/site/jacoco/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/site/jacoco/jacoco-resources/branchfc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/site/jacoco/jacoco-resources/branchnc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/site/jacoco/jacoco-resources/branchpc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/site/jacoco/jacoco-resources/bundle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/site/jacoco/jacoco-resources/class.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/site/jacoco/jacoco-resources/down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/site/jacoco/jacoco-resources/greenbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/site/jacoco/jacoco-resources/group.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/site/jacoco/jacoco-resources/method.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/site/jacoco/jacoco-resources/package.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/site/jacoco/jacoco-resources/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/site/jacoco/jacoco-resources/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/site/jacoco/jacoco-resources/redbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/site/jacoco/jacoco-resources/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/site/jacoco/jacoco-resources/report.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/site/jacoco/jacoco-resources/session.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/site/jacoco/jacoco-resources/sort.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/site/jacoco/jacoco-resources/sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/site/jacoco/jacoco-resources/source.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/site/jacoco/jacoco-resources/up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/site/jacoco/jacoco.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/site/jacoco/ru.netology.statistic/StatisticsService.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/site/jacoco/ru.netology.statistic/StatisticsService.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/site/jacoco/ru.netology.statistic/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/site/jacoco/ru.netology.statistic/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/surefire-reports/TEST-ru.netology.statistic.StatisticsServiceTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/surefire-reports/ru.netology.statistic.StatisticsServiceTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProcessMyakinkinQA/target/test-classes/ru/netology/statistic/StatisticsServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProductManager13Myakinkin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RadioMyakQA53" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQRMyakinkin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQRhomeworkMyakinkin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQRhomeworkMyakinkin/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQRhomeworkMyakinkin/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQRhomeworkMyakinkin/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQRhomeworkMyakinkin/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQRhomeworkMyakinkin/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQRhomeworkMyakinkin/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQRhomeworkMyakinkin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQRhomeworkMyakinkin/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQRhomeworkMyakinkin/src/main/java/SQRService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQRqaMyak/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQRqaMyak/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQRqaMyak/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQRqaMyak/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQRqaMyak/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQRqaMyak/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQRqaMyak/src/main/java/SQRService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQRqaMyakinkin/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQRqaMyakinkin/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web2.0/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web2.0/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web2.0/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web2.0/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web2.0/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aqa-code" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aqa-code_1.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arraysQA/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arraysQA/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arraysQA/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arraysQA/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arraysQA/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arraysQA/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arraysQA/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arraysQA/src/main/java/TemperatureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arraysQA/src/test/java/TemperatureServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arraysQA/target/classes/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arraysQA/target/classes/TemperatureService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arraysQA/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arraysQA/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arraysQA/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arraysQA/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arraysQA/target/surefire-reports/TEST-TemperatureServiceTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arraysQA/target/surefire-reports/TemperatureServiceTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arraysQA/target/test-classes/TemperatureServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bonusOperator" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mavenqaMyakinkin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../miles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productManager" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Web2.1" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/.." source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OVmAIDBplkZi8d3wcZpPhWvG0T" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/IdeaProjects/Web2.1/src/test/java/ru/netology&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.netology" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\IdeaProjects\Web2.1\driver" />
+      <recent name="C:\IdeaProjects\Web2.1\artifacts" />
+      <recent name="C:\IdeaProjects\Web2.1\artifacts " />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.ChromeTest.shouldBeSuccessfulSendForm">
+    <configuration name="CardTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.netology.CardTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CardTest.positiveTestForm" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.netology.CardTest.positiveTestForm&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ChromeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.netology.ChromeTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ChromeTest.shouldBeSuccessfulSendForm" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.netology.ChromeTest.shouldBeSuccessfulSendForm&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ChromeTest.shouldBeSuccessfulSendForm" />
+        <item itemvalue="Gradle.ChromeTest" />
+        <item itemvalue="Gradle.CardTest.positiveTestForm" />
+        <item itemvalue="Gradle.CardTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="470d0768-0b84-4760-8a09-780ce6b30e60" name="Changes" comment="" />
+      <created>1681653986089</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681653986089</updated>
+    </task>
+    <task id="LOCAL-00001" summary="2">
+      <created>1681830507368</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681830507368</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2">
+      <created>1681831254317</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681831254317</updated>
+    </task>
+    <task id="LOCAL-00003" summary="5">
+      <created>1682605946026</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682605946026</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="2" />
+    <MESSAGE value="5" />
+    <option name="LAST_COMMIT_MESSAGE" value="5" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
